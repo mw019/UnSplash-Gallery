@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Semantic-UI-React
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React)
 
-<img src="images/project.jpg"
+
 
 ## Available Scripts
 
@@ -12,7 +12,7 @@ Installs the dependencies required to run the project.
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
+Runs the app in the development mode.
 
 ### `npm test`
 
