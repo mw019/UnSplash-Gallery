@@ -15,11 +15,11 @@ describe('<App />', () => {
     wrapper = shallow(<App />);
   });
 
-  it('should render 1 <ImageDisplay /> element when we get an input', () => {
+  it('should render <ImageDisplay /> element', () => {
     expect(wrapper.find(ImageDisplay)).toHaveLength(1);
   });
 
-  it('should render 1 <SearchBar /> element when we get an input', () => {
+  it('should render <SearchBar /> element', () => {
     expect(wrapper.find(SearchBar)).toHaveLength(1);
   });
 
