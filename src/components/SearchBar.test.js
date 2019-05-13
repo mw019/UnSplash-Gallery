@@ -13,7 +13,7 @@ describe('<SearchBar />', () => {
     wrapper = shallow(<SearchBar />);
   });
 
-  it('should render text input with label (default: type)', () => {
+  it('should render label', () => {
     const label = wrapper.find('label');
     expect(label).toHaveLength(1);
   });
