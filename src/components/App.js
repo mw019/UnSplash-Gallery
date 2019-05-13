@@ -16,7 +16,7 @@ class App extends Component {
       params: { query: input, per_page: 100, orientation: 'squarish' }
     });
 
-    console.log(response.data.results);
+    // console.log(response.data.results);
     this.setState({ images: response.data.results });
   };
 
